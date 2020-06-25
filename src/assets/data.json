@@ -1,0 +1,122 @@
+[
+  {
+    "userId": 1,
+    "firstName": "Romin",
+    "lastName": "Irani",
+    "salary": 20000,
+    "empThreshold":0,
+    "subordinates" :[
+      {
+        "userId": 11,
+        "firstName": "Romin_1",
+        "lastName": "Irani_1",
+        "salary": 20001,
+        "empThreshold":0
+      },
+      {
+        "userId": 12,
+        "firstName": "Romin_2",
+        "lastName": "Irani_2",
+        "salary": 20002,
+        "empThreshold":0
+      },
+      {
+        "userId": 13,
+        "firstName": "Romin_3",
+        "lastName": "Irani_3",
+        "salary": 20003,
+        "empThreshold":0
+      }
+    ]
+  },
+  {
+    "userId": 2,
+    "firstName": "Amit",
+    "lastName": "Singh",
+    "salary": 21000,
+    "empThreshold":0,
+    "subordinates" :[
+      {
+        "userId": 21,
+        "firstName": "Amit_1",
+        "lastName": "Singh_1",
+        "salary": 21001,
+        "empThreshold":0
+      },
+      {
+        "userId": 22,
+        "firstName": "Amit_2",
+        "lastName": "Singh_2",
+        "salary": 21002,
+        "empThreshold":0
+      },
+      {
+        "userId": 23,
+        "firstName": "Amit_3",
+        "lastName": "Singh_3",
+        "salary": 21003,
+        "empThreshold":0
+      }
+    ]
+  },
+  {
+    "userId": 3,
+    "firstName": "Rajesh",
+    "lastName": "Kumar",
+    "salary": 22000,
+    "empThreshold":0,
+    "subordinates" :[
+      {
+        "userId": 31,
+        "firstName": "Rajesh_1",
+        "lastName": "kumar_1",
+        "salary": 22001,
+        "empThreshold":0
+      },
+      {
+        "userId": 32,
+        "firstName": "Rajesh_2",
+        "lastName": "Kumar_2",
+        "salary": 22002,
+        "empThreshold":0
+      },
+      {
+        "userId": 33,
+        "firstName": "Rajesh_3",
+        "lastName": "Kumar_3",
+        "salary": 22003,
+        "empThreshold":0
+      }
+    ]
+  },
+  {
+    "userId": 4,
+    "firstName": "Sumit",
+    "lastName": "Rana",
+    "salary": 24000,
+    "empThreshold":0,
+    "subordinates" :[
+      {
+        "userId": 41,
+        "firstName": "Sumit_1",
+        "lastName": "kumar_1",
+        "salary": 24001,
+        "empThreshold":0
+      },
+      {
+        "userId": 42,
+        "firstName": "Sumit_2",
+        "lastName": "Kumar_2",
+        "salary": 24002,
+        "empThreshold":0
+      },
+      {
+        "userId": 43,
+        "firstName": "Sumit_3",
+        "lastName": "Kumar_3",
+        "salary": 24003,
+        "empThreshold":0
+      }
+    ]
+  }
+]

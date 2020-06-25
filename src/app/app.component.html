@@ -1,0 +1,28 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <label>Threshold: </label>
+  <input type="text" name="threshold" value="{{threshold}}" (keyup)="onThresholdChange($event.target.value)">
+  <ul>
+    <li *ngFor="let emp of employees">
+      <p>Employee:
+        <span>First Name:- {{emp.firstName}}</span>
+        <span>Last Name:- {{emp.lastName}}</span>
+        <span>Salary :- {{emp.salary}}</span>
+        <!-- <span>Employee Threshold:- {{emp.empThreshold}}</span> -->
+      </p>
+      <ul class="subordinate-ul">
+        <li *ngFor="let sub of emp.subordinates">
+          <span> Subordinates:- </span>
+          <span>First Name:- {{sub.firstName}}</span>
+          <span>Last Name:- {{sub.lastName}}</span>
+          <span>Salary Name:- {{sub.salary}}</span>
+          <span>Threshold:- {{sub.empThreshold}}</span>
+        </li>
+      </ul>
+    </li>
+
+  </ul>
+
+  <span>Sum Of Threshold Salaries:- {{sumofAllSalaries}}</span>
+
+  <router-outlet></router-outlet>
